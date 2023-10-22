@@ -23,7 +23,7 @@ body {
 main {
   display: flex;
   justify-content: space-between;
-  gap: 5.4rem;
+  gap: 2rem;
   margin: 0 auto;
 }
 
@@ -92,10 +92,8 @@ input {
   caret-color: #5e54a4;
 }
 
-input:active,
-input:focus-visible,
 input:focus {
-  border: 1px solid #5e54a4;
+  outline: 1px solid #5e54a4;
 }
 
 button {
@@ -113,7 +111,7 @@ button {
   margin-bottom: 0.8rem;
 }
 
-button {
+button:hover {
   cursor: pointer;
 }
 
@@ -140,4 +138,11 @@ a {
   line-height: normal;
   margin-top: -1.4rem;
   margin-bottom: 1.9rem;
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 90%;
+    flex-direction: column;
+  }
 }
