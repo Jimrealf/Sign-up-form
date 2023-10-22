@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: url(./assets/images/bg-intro-desktop.png);
+  background-color: #ff7979;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 5.4rem;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 52.5rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.content-head {
+  color: #fff;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  letter-spacing: -0.0521rem;
+  margin-bottom: 2rem;
+}
+
+.content-text {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  padding: 4rem;
+}
+
+.form-head {
+  border-radius: 1rem;
+  background: #5e54a4;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  letter-spacing: 0.0268rem;
+  padding: 1.7rem 11.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.light {
+  font-weight: 400;
+}
+
+input {
+  width: 100%;
+  height: 5.6rem;
+  padding-left: 3.2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #dedede;
+  background: #fff;
+  color: #3d3b48;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing: 0.025rem;
+  caret-color: #5e54a4;
+}
+
+input:active,
+input:focus-visible,
+input:focus {
+  border: 1px solid #5e54a4;
+}
+
+button {
+  border-radius: 0.5rem;
+  background: #38cc8b;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  width: 100%;
+  height: 5.6rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing: 0.1rem;
+  border: unset;
+  margin-bottom: 0.8rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.form-text {
+  color: #bab7d4;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2.6rem;
+}
+
+a {
+  color: #ff7979;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.error {
+  color: #ff7979;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -1.4rem;
+  margin-bottom: 1.9rem;
+}
